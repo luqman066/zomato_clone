@@ -16,6 +16,13 @@ header{
     height:500px;
     background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
 }
+.justify{
+    justify-content: space-between;
+}
+header .container a, header .container{
+    color: white;
+    text-decoration: none;
+}
 .mt-32{
     margin-top: 2em;/*32px;*/
 }
