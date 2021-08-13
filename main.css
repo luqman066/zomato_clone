@@ -59,6 +59,7 @@ header{
 
 .grid{
     display: grid;
+    gap: 10px;
     grid-template-columns: repeat(2, 1fr);
 }
 .card{
@@ -67,6 +68,8 @@ header{
 }
 .card_header{
     height: 4em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     background-image: url("https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png");
 }
 
