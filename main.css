@@ -11,6 +11,7 @@ h4,p{
 
 .flex{
     display: flex;
+    
 }
 
 header{
@@ -19,7 +20,7 @@ header{
     background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
 }
 .justify{
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 header .container a, header .container{
     color: white;
@@ -98,4 +99,49 @@ header .container a, header .container{
 
 .card_body{
     padding:1em;
+}
+/* stuck with no background image */
+.grid_4 .card:first-child{
+    height: 20rem;
+    color: cornsilk;
+    background-size: cover;
+    background-image: url("https://b.zmtcdn.com/data/collections/1b8c164e8a18878468d8aabeb0b486b1_1625812715.jpg?output-format=webp");
+}
+.grid_4 .card:nth-child(2){
+    color: cornsilk;
+    background-image: url(https://b.zmtcdn.com/data/collections/f13fcab286adcffb1c67314bf478f15f_1445952225_l.jpg?output-format=webp);
+}
+.grid_4 .card:nth-child(3){
+    color: cornsilk;
+    background-image: url(https://b.zmtcdn.com/data/collections/ef554331dca31c2c2fe9cacb0ba2497a_1436189713_l.jpg?output-format=webp);
+}
+.grid_4 .card:last-child{
+    color: cornsilk;
+    background-image: url(https://b.zmtcdn.com/data/collections/f672e9556e44fe33ff47bf751639c0bd_1535611700.jpg?output-format=webp);
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+    text-align: center;
+    color: azure;
+    background-color: rgb(83, 81, 81);
+}
+.red-button{
+    background-color: tomato;
+}
+.support{
+    position: fixed;
+    top: 20%;
+    right: 0%;
+    width: 30px;
+    height: 150px;
+    text-align: center;
+    padding-right: 10px;
+    z-index: 999;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    color: white;
+    background-color: tomato;
 }
